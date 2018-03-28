@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-size: 100%;
+	background-image: url(bgimage.JPG);
+	background-repeat: no-repeat;
+}
+p{
+	display: inline-block;
+}
+.calculator{
+	margin:0px 300px;
+
+}
+#header h1{
+	margin:12px;
+	font-size: 60px;
+	text-align: center;
+	text-decoration: underline;
+}
+input{
+	margin:3px;
+	width:171.7656156px;
+	height:40px;
+}
+#input{
+	width: 739px;
+	height: 70px;
+	outline: none;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: right;
+}
+#footer h1{
+	margin: 40px 20px;
+}
+#footer{
+	text-align: center;
+}

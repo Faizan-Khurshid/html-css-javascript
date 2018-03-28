@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h1>SIMPLE CALCULTOR</h1>
+	</div>
+	<div class="calculator">
+		<div id="screen">
+				<input type="text" name="screen" id="input" maxlength="32">
+		</div>
+		<div id="buttons-area">
+			<div id="commands">
+				<input type="button"  value="C" onclick="erase()">
+				<p>|</p>
+				<input type="button" value="CE" onclick="del_last()">
+				<p>|</p>
+				<input type="button" value="On" id="on" onclick="turnon()">
+				<p>|</p>
+				<input type="button" value="Off" id="off" onclick="turnoff()">
+			</div>
+				<div id="first-buts">
+					<input type="button" name="7" value="7" onclick="show('7')">
+					<p>|</p>
+					<input type="button" name="8" value="8" onclick="show('8')">
+					<p>|</p>
+					<input type="button" name="9" value="9" onclick="show('9')">
+					<p>|</p>
+					<input type="button" name="divide" value="/" onclick="show('/')">
+				</div>
+			<div id="scnd-buts">
+				<input type="button" name="4" value="4" onclick="show('4')">
+				<p>|</p>
+				<input type="button" name="5" value="5" onclick="show('5')">
+				<p>|</p>
+				<input type="button" name="6" value="6" onclick="show('6')">
+				<p>|</p>
+				<input type="button" name="multiply" value="x" onclick="show('*')">
+			</div>
+			<div id="thrd-buts">
+				<input type="button" name="1" value="1" onclick="show('1')">
+				<p>|</p>
+				<input type="button" name="2" value="2" onclick="show('2')">
+				<p>|</p>
+				<input type="button" name="3" value="3" onclick="show('3')">
+				<p>|</p>
+				<input type="button" name="substract" value="-" onclick="show('-')">
+			</div>
+			<div id="fourth--buts">
+				<input type="button" name="point" value="." onclick="show('.')">
+				<p>|</p>
+				<input type="button" name="0" value="0" onclick="show('0')">
+				<p>|</p>
+				<input type="button" name="additon" value="+" onclick="show('+')">
+				<p>|</p>
+				<input type="button" name="equalto" value="=" onclick="equalto()">				
+			</div> 
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<h1>Made By M.Faizan Khurhsid</h1>
+			<p>for any suggestions<br />Email at:<br />
+			<b>faizankhurhsid23@gmail.com</b></p>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
